@@ -1,0 +1,49 @@
+.navbar-header .navbar-brand{
+	font-family: raleway;
+	font-size: 24px;
+}
+*{
+	font-family: raleway;
+}
+.margin-bottom{
+	margin-bottom: 25px;
+}
+.status-success{
+	color: #3c763d;
+	font-weight: 600;
+}
+.status-failed{
+	color: #a94442;
+	font-weight: 600;
+}
+#print_form{
+	display: inline;
+}
+.image{
+	position: relative;
+	width: 100%;
+	max-width: 700px;
+}
+.date, .name, .amount, .amountIW{
+	position: absolute;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.date{
+    top: 60px;
+    left: 460px;
+}
+.name{
+    top: 110px;
+    left: 110px;
+    display: inline;
+}
+.amount{
+    top: 110px;
+    left: 550px;
+    display: inline;
+}
+.amountIW{
+    top: 145px;
+    left: 80px;
+}
